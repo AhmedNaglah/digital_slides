@@ -2,7 +2,7 @@
 This website uses the [Bulma Clean Theme](https://github.com/chrisrhymes/bulma-clean-theme) for Jekyll.
 
 ### Running the site locally
-1. Open a terminal and clone the [digital_slide_archive](https://github.com/DigitalSlideArchive/digital_slide_archive) repo
+1. Open a terminal and clone the [digital_slide_archive](https://github.com/AhmedNaglah/digital_slides) repo
 1. Navigate to the docs folder – `cd docs`
 1. Run the command `bundle exec jekyll serve`
     * You may need to run `bundle install && bundle update` if this step fails. Once that is done, repeat step 3.

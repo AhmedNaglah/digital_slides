@@ -15,7 +15,7 @@ The docker-compose file assumes certain file paths.  This has been tested on Ubu
 
 Get the Digital Slide Archive repository::
 
-    git clone https://github.com/DigitalSlideArchive/digital_slide_archive
+    git clone https://github.com/AhmedNaglah/digital_slides
 
 Start
 -----
@@ -89,11 +89,11 @@ The Digital Slider Archive is built in Girder and Girder Worker.  Here, these ar
 
 The Digital Slide Archive relies on several Girder plugins:
 
-- `large_image <https://github.com/girder/large_image>`_.  This provides a standardized way to access a wide range of image formats.  Images can be handled as multi-resolution tiles.  large_image has numerous tile sources to handle different formats.
+- `large_image <https://github.com/AhmedNaglah/large_image>`_.  This provides a standardized way to access a wide range of image formats.  Images can be handled as multi-resolution tiles.  large_image has numerous tile sources to handle different formats.
 
-- `HistomicUI <https://github.com/DigitalSlideArchive/HistomicsUI>`_.  This provides a user interface to examine and annotate large images.
+- `HistomicUI <https://github.com/AhmedNaglah/HistomicsUI>`_.  This provides a user interface to examine and annotate large images.
 
-- `Slicer CLI Web <https://github.com/girder/slicer_cli_web>`_.  This can run processing tasks in Docker containers.  Tasks report their capabilities via the Slicer CLI standard, listing required and optional inputs and outputs.  These tasks can be selected and configured via Girder and HistomicsUI and then run in a distributed fashion via Girder Worker.
+- `Slicer CLI Web <https://github.com/AhmedNaglah/slicer_cli_web>`_.  This can run processing tasks in Docker containers.  Tasks report their capabilities via the Slicer CLI standard, listing required and optional inputs and outputs.  These tasks can be selected and configured via Girder and HistomicsUI and then run in a distributed fashion via Girder Worker.
 
 Slicer CLI Web runs tasks in Docker containers and is itself running in a Docker container (in Girder for determining options and Girder Worker to run the task).  In order to allow a process in a docker container to create another docker container, the paths the docker executable and communications sockets are mounted from the host to the docker container.
 

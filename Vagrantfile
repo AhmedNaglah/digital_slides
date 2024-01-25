@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
       sudo chmod +x /usr/local/bin/docker-compose
       docker-compose --version
       cd /home/vagrant
-      git clone https://github.com/DigitalSlideArchive/digital_slide_archive.git
+      git clone https://github.com/AhmedNaglah/digital_slides.git
       cd digital_slide_archive/devops/dsa
       bash -c 'bash -c "docker-compose pull && DSA_USER=$(id -u):$(id -g) docker-compose up -d"'
       date > /etc/provisioned

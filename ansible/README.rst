@@ -19,7 +19,7 @@ This method uses an older installation method that was created before docker-com
 Prerequisites
 #############
 
-At a minimum, you need `Docker <https://docs.docker.com/install/>`_, `Python <https://www.python.org/downloads/>`_, `pip <https://pip.pypa.io/en/stable/installing/>`_.  You also need `git <https://git-scm.com/downloads>`_ or to download the installation files from the `source repository <https://github.com/DigitalSlideArchive/digital_slide_archive/tree/master/ansible>`_.
+At a minimum, you need `Docker <https://docs.docker.com/install/>`_, `Python <https://www.python.org/downloads/>`_, `pip <https://pip.pypa.io/en/stable/installing/>`_.  You also need `git <https://git-scm.com/downloads>`_ or to download the installation files from the `source repository <https://github.com/AhmedNaglah/digital_slides/tree/master/ansible>`_.
 
 Install git, python-pip, and docker.io.  On Ubuntu, this can be done via::
 
@@ -51,7 +51,7 @@ Install the python docker module::
 
 Get the Digital Slide Archive repository::
 
-    git clone https://github.com/DigitalSlideArchive/digital_slide_archive
+    git clone https://github.com/AhmedNaglah/digital_slides
 
 Deploy
 ######
@@ -104,7 +104,7 @@ Install VirtualBox, Vagrant, and git:
 
 Get the Digital Slide Archive repository::
 
-    git clone https://github.com/DigitalSlideArchive/digital_slide_archive
+    git clone https://github.com/AhmedNaglah/digital_slides
 
 Deploy
 ######

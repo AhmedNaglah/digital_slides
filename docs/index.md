@@ -13,10 +13,10 @@ hero_buttons:
     link: https://demo.kitware.com/histomicstk/#collection/5bbdeb97e629140048d017ba/folder/5bbdeba3e629140048d017bb
 
   - link_text: View on GitHub
-    link: https://github.com/DigitalSlideArchive
+    link: https://github.com/AhmedNaglah
 
   - link_text: Installation
-    link: https://github.com/DigitalSlideArchive/digital_slide_archive/blob/master/devops/dsa/README.rst
+    link: https://github.com/AhmedNaglah/digital_slides/blob/master/devops/dsa/README.rst
 
 # What is DSA Section
 # =================================
@@ -61,8 +61,8 @@ platforms:
   # HistomicsUI
   - title: HistomicsUI
     description: HistomicsUI is a web-based application for examining, annotating, and processing histology images to extract both low and high level features (e.g. cellular structure, feature types).
-    docs_url: https://github.com/DigitalSlideArchive/HistomicsUI/blob/master/README.rst
-    github_url: https://github.com/DigitalSlideArchive/HistomicsUI
+    docs_url: https://github.com/AhmedNaglah/HistomicsUI/blob/master/README.rst
+    github_url: https://github.com/AhmedNaglah/HistomicsUI
     screenshot: assets/img/histomicsui_screenshot.png
     features:
       - name: Secure Data Management
@@ -89,7 +89,7 @@ platforms:
   - title: HistomicsTK
     description: HistomicsTK is a Python image-processing toolkit for quantitative analysis of whole-slide digital pathology images.
     docs_url: https://digitalslidearchive.github.io/HistomicsTK/
-    github_url: https://github.com/DigitalSlideArchive/HistomicsTK
+    github_url: https://github.com/AhmedNaglah/HistomicsTK
     screenshot: assets/img/histomicstk_screenshot.png
     features:
       - name: Preprocessing

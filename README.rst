@@ -24,12 +24,12 @@ Demo Instance
 License
 -----------------------------------------------------------
 
-The Digital Slide Archive is made available under the Apache License, Version 2.0. For more details, see `LICENSE <https://github.com/DigitalSlideArchive/digital_slide_archive/blob/master/LICENSE>`_
+The Digital Slide Archive is made available under the Apache License, Version 2.0. For more details, see `LICENSE <https://github.com/AhmedNaglah/digital_slides/blob/master/LICENSE>`_
 
 Community
 -----------------------------------------------------------
 
-`Discussions <https://github.com/DigitalSlideArchive/digital_slide_archive/discussions>`_ | `Issues <https://github.com/DigitalSlideArchive/digital_slide_archive/issues>`_ | `Contact Us <https://www.kitware.com/contact-us/>`_
+`Discussions <https://github.com/AhmedNaglah/digital_slides/discussions>`_ | `Issues <https://github.com/AhmedNaglah/digital_slides/issues>`_ | `Contact Us <https://www.kitware.com/contact-us/>`_
 
 Installation
 ------------
@@ -45,7 +45,7 @@ There is a `migration guide <./ansible/migration.rst>`_  from the Girder 2 versi
 Adding Docker Tasks
 -------------------
 
-Docker tasks conforming to the `slicer_cli_web <https://github.com/girder/slicer_cli_web>`_ module's requirements can be added.  These tasks appear in the HistomicsUI interface and in the Girder interface.  An administrator can add a Docker image by going to the slicer_cli_web plugin settings and entering the Docker image name there.  For instance, to get the HistomicsTK tasks, add ``dsarchive/histomicstk:latest``.
+Docker tasks conforming to the `slicer_cli_web <https://github.com/AhmedNaglah/slicer_cli_web>`_ module's requirements can be added.  These tasks appear in the HistomicsUI interface and in the Girder interface.  An administrator can add a Docker image by going to the slicer_cli_web plugin settings and entering the Docker image name there.  For instance, to get the HistomicsTK tasks, add ``dsarchive/histomicstk:latest``.
 
 Funding
 -------

@@ -13,7 +13,7 @@ The docker-compose file assumes certain file paths.  This has been tested on Ubu
 
 Get the Digital Slide Archive repository::
 
-    git clone https://github.com/DigitalSlideArchive/digital_slide_archive
+    git clone https://github.com/AhmedNaglah/digital_slides
 
 Start
 -----
